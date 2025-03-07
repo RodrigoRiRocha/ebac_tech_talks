@@ -1,25 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EBAC Tech talks</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
 <body>
 
     <header class="hero">
         <div class="container">
             <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC">
             <P class="hero__text">
-                O maior evento de tecnologia do Brasil começa em 10d 12h 20m 15s
+                O maior evento de tecnologia do Brasil começa em <span id="contador"></span>
             </P>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>
+                            Localização
+                        </b>
+                        Allianz Parque - Barra Funda - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 129,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>
+                            Quando
+                            
+                        </b>
+                        27/02/2025 as 20hrs
+                    </li>
+
+                </ul>
+                <a href="#" class="button button--primary">Garanta sua vaga</a>
+            </div>
         </div>
     </header>
+    <section class="event event--frontend" >
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Front-end</h2>
+                <p class="event__details__description">Participe das nossas palestras sobre Front-end e aprenda com os melhores profissionais do mercado. Descubra as últimas tendências e tecnologias que estão moldando o futuro do desenvolvimento web.</p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="Front-end">
+        </div>
+    </section>
+    <section class="event event--ui-ux event--image-left" >
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">UI/UX</h2>
+                <p class="event__details__description">Venha aprender sobre as melhores práticas de design de interface e experiência do usuário. Nossos especialistas irão compartilhar dicas valiosas para criar produtos digitais incríveis.</p>
+            </div>
+            <img class="event__image" src="./images/ui-ux.png" alt="ui-ux">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Data Science</h2>
+                <p class="event__details__description">Descubra como a ciência de dados está transformando o mundo. Nossas palestras irão abordar desde os conceitos básicos até as técnicas mais avançadas de análise de dados.</p>
+            </div>
+            <img class="event__image" src="./images/data.png" alt="data science">
+        </div>
+    </section>
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Back-end</h2>
+                <p class="event__details__description">Aprenda sobre o desenvolvimento de servidores, bancos de dados e APIs. Nossos palestrantes irão compartilhar suas experiências e conhecimentos sobre as melhores práticas de desenvolvimento back-end.</p>
+            </div>
+            <img class="event__image" src="./images/backend.png" alt="backend">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
-    
+
 </body>
+
 </html>
