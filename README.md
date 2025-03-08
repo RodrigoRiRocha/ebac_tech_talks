@@ -2,7 +2,7 @@
 
 Uma landing page responsiva criada com HTML, CSS, JavaScript, SASS e Parcel.
 
-![Website](https://ebac-tech-talks-wine.vercel.app/)
+(https://ebac-tech-talks-wine.vercel.app/)
 
 ![Navy Blue Modern Landing Page Desktop Prototype](https://github.com/user-attachments/assets/49d6b4ba-df93-4495-9332-6495afcc3fec)
 
