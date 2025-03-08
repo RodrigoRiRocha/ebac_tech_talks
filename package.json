@@ -12,7 +12,12 @@
   "description": "",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.3",
-    "parcel": "^2.8.0",
+    "parcel": "^2.13.3",
     "svgo": "^3.3.2"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^11.2.0",
+    "sharp": "^0.33.5"
   }
 }
