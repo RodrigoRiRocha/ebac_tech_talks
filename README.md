@@ -14,5 +14,4 @@ Este projeto é uma landing page responsiva desenvolvida para demonstrar habilid
 - **SASS**: Pré-processador CSS para facilitar a escrita e manutenção do CSS.
 - **Parcel**: Empacotador de aplicações web para facilitar o desenvolvimento e a construção do projeto.
 
-- 
 ![Navy Blue Modern Landing Page Desktop Prototype](https://github.com/user-attachments/assets/49d6b4ba-df93-4495-9332-6495afcc3fec)
